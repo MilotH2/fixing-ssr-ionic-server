@@ -1,0 +1,78 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-button slot="start">
+      <ion-icon slot="icon-only" name="add"></ion-icon>
+    </ion-button>
+    <!-- <ion-list (mouseover)="favorites()" (mouseout)="notifications()" slot="start"> -->
+    <!-- <div slot="start" class="menu">
+      <ul>
+        <li>
+          Dropdown A
+          <ul>
+            <li class="link">
+              <a href="">Im a link</a>
+            </li>
+            <li class="link">
+              <a href="">Im a link</a>
+            </li>
+            <li>
+              Nested dropdown
+              <ul>
+                <li class="link">
+                  <a href="">Im a link</a>
+                </li>
+                <li class="link">
+                  <a href="">Im a link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div> -->
+    <ion-list slot="start">
+      <ion-item lines="none">
+        <ion-select interface="popover" placeholder="Select fruit">
+          <ion-select-option value="apples">Apples</ion-select-option>
+          <ion-select-option value="oranges">Oranges</ion-select-option>
+          <ion-select-option value="bananas">Bananas</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+    <ion-searchbar mode="md" slot="start"></ion-searchbar>
+    <ion-buttons slot="end">
+      <ion-button fill="clear">Teach on KITC</ion-button>
+      <ion-button fill="clear">
+        <ion-icon name="cart-outline"></ion-icon>
+        <ion-badge color="warning">70</ion-badge>
+      </ion-button>
+      <ion-button fill="solid">Log in</ion-button>
+      <!-- <ion-button fill="solid">Sign up</ion-button> -->
+      <ion-button fill="clear"
+        ><ion-icon name="book-outline" slot="start"></ion-icon>My
+        Courses</ion-button
+      >
+      <ion-button (click)="favorites()">
+        <ion-icon slot="icon-only" name="heart-outline"></ion-icon>
+      </ion-button>
+      <ion-button (click)="notifications()">
+        <ion-icon slot="icon-only" name="notifications-outline"></ion-icon>
+        <ion-badge color="warning">70</ion-badge>
+      </ion-button>
+      <ion-grid slot="end" (click)="openMenu1()">
+        <h5>MH</h5>
+      </ion-grid>
+      <ion-avatar slot="end" (click)="openMenu2()">
+        <ion-img
+          src="https://image.shutterstock.com/image-photo/portreits-adeli-pinguin-antarctica-260nw-1433608718.jpg"
+        ></ion-img>
+      </ion-avatar>
+    </ion-buttons>
+    <!-- <ion-buttons slot="start">
+      <ion-menu-button menu="start"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-menu-button menu="end"></ion-menu-button>
+    </ion-buttons> -->
+  </ion-toolbar>
+</ion-header>

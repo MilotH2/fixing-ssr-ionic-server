@@ -1,0 +1,29 @@
+ion-menu {
+  ion-content {
+    ion-item.userInfo {
+      --padding-start: 15px;
+      --padding-end: 15px;
+      --padding-top: 15px;
+      --padding-bottom: 15px;
+      ion-avatar {
+        height: 80px;
+        width: 80px;
+      }
+      ion-label {
+        h2 {font-size: 14px}
+        p {font-size: 12px}
+      }
+    }
+    ion-list {
+      ion-item {
+        --min-height: 0;
+        ion-icon {
+          margin: 0 10px 0 0
+        }
+        ion-label {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+// .swiperTab {
+//   min-height: 400px;
+//   max-height: 400px;
+//   ion-img.imageSwiperInfo {
+//     // max-height: 400px;
+//     width: 100%;
+//     object-fit: cover;
+//     max-width: 100%;
+//     height: 400px;
+//   }
+//   ion-img.staticImage {
+//     height: auto;
+//     width: 100%;
+//     object-fit: unset;
+//   }
+//   ion-grid.customGridRow {
+
+//     background: var(--ion-color-bluefont);
+//     height: 400px;
+//     ion-row {
+//       ion-col {
+
+//       }
+//       ion-col:nth-child(1) {
+//         ion-grid.textData {
+//           height: 400px;
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           div {
+//             padding-left: 15px;
+//             h1, ion-text {
+//               color: var(--ion-color-snow);
+//             }
+//             h1 {
+//               font-weight: 600;
+//               font-size: 50px;
+//             }
+//             ion-text {
+//               font-weight: 400;
+//               font-size: 15px;
+//               color: #FFFFFF8F;
+//             }
+//             ion-button {
+//               margin-top: 15px;
+//             }
+//           }
+//         }
+
+
+//       }
+//       ion-col:nth-child(2) {
+//         ion-icon.userHappySvgIcon {
+//           width: 100%;
+//           height: 320px;
+//         }
+//       }
+
+
+//     }
+//   }
+//   div.swiperInfoDashboard {
+//     position: absolute;
+//     top: 5%;
+//     left: 8%;
+//     min-width: 20%;
+//     max-width: 36%;
+//     max-height: 400px;
+//     ion-card.swiperCardInfo {
+//       margin-bottom: 180px;
+//     }
+//   }
+
+// }
+
+//   @media screen and (max-width: 444px) {
+//           ion-grid.textData {
+//           height: 200px !important;
+//             div {
+//                 h1 {
+//                   font-size: 22px !important;
+//                 }
+//                 ion-text {
+//                   font-size: 8px !important;
+//                 }
+//                 ion-button {
+//                   margin-top: 5px !important;
+//                 }
+//               }
+//             }
+//           ion-icon.userHappySvgIcon {
+//             height: 190px !important;
+//             position: relative;
+//             top: -15%;
+//           }
+//         }
+//        @media screen and (min-width: 445px) and (max-width: 580px) {
+//           ion-grid.textData {
+//           height: 200px !important;
+//             div {
+//                 h1 {
+//                   font-size: 28px !important;
+//                 }
+//                 ion-text {
+//                   font-size: 9px !important;
+//                 }
+//                 ion-button {
+//                   margin-top: 5px !important;
+//                 }
+//               }
+//             }
+//           ion-icon.userHappySvgIcon {
+//             height: 226px !important;
+//             position: relative;
+//             top: -20%;
+//           }
+//         }
+//        @media screen and (min-width: 581px) and (max-width: 681px) {
+//           ion-grid.textData {
+//           height: 200px !important;
+//             div {
+//                 h1 {
+//                   font-size: 28px !important;
+//                 }
+//                 ion-text {
+//                   font-size: 9px !important;
+//                 }
+//                 ion-button {
+//                   margin-top: 5px !important;
+//                 }
+//               }
+//             }
+//           ion-icon.userHappySvgIcon {
+//             height: 226px !important;
+//             position: relative;
+//             top: -20%;
+//           }
+//         }
+//        @media screen and (min-width: 682px) and (max-width: 768px) {
+//           ion-grid.textData {
+//           height: 200px !important;
+//             div {
+//                 h1 {
+//                   font-size: 28px !important;
+//                 }
+//                 ion-text {
+//                   font-size: 9px !important;
+//                 }
+//                 ion-button {
+//                   margin-top: 5px !important;
+//                 }
+//               }
+//             }
+//           ion-icon.userHappySvgIcon {
+//             height: 226px !important;
+//             position: relative;
+//             top: -20%;
+//           }
+//         }

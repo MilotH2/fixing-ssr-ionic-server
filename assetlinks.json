@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "fixing.server.com",
+      "sha256_cert_fingerprints": [
+        "B7:8D:C8:52:9A:67:C5:74:56:66:72:8A:DA:07:A2:98:82:30:F7:68:AE:B5:3F:38:8E:8E:DB:21:FC:40:05:8F"
+      ]
+    }
+  }
+]

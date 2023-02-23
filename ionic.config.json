@@ -1,0 +1,7 @@
+{
+  "name": "CoursesKITC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

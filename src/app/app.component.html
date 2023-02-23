@@ -1,0 +1,32 @@
+<ion-app>
+  <ion-menu side="end" contentId="main-content" type="overlay">
+    <ion-content>
+      <ion-item class="userInfo ion-text-nowrap" lines="full">
+        <ion-avatar slot="start">
+          <ion-img
+            src="https://image.shutterstock.com/image-photo/portreits-adeli-pinguin-antarctica-260nw-1433608718.jpg"
+          ></ion-img>
+        </ion-avatar>
+        <ion-label class="ion-text-wrap"> </ion-label>
+      </ion-item>
+
+      <ion-list>
+        <ion-item
+          button="true"
+          detail="true"
+          *ngFor="let menu of menuItems; index as i"
+          [lines]="menu.hasDividor ? 'full' : 'none'"
+        >
+          <ion-icon
+            slot="start"
+            [name]="menu.icon"
+            [src]="menu.icon"
+          ></ion-icon>
+          <ion-label>{{ menu.title }}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+</ion-app>
